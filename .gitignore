@@ -1,0 +1,43 @@
+.gradle
+.gradletasknamecache
+build/
+!gradle/wrapper/gradle-wrapper.jar
+version.txt
+src/main/resources/META-INF
+out/
+bin/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+temp-embedded-postgres/
+.scannerwork/
+*.DS_Store
+
+# Local configuration file (sdk path, etc)
+src/main/resources/application-local.properties
+src/main/resources/application-local.yaml
+src/main/resources/**/*.jks
+
+# Maven Files
+mvnw
+mvnw.cmd
+HELP.md
